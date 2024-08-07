@@ -1,0 +1,7 @@
+@charset "UTF_8";
+
+@media (max-width: 370px) {
+    .login-container{
+        min-width: auto !important;
+    }
+}

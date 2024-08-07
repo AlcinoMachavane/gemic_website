@@ -1,0 +1,172 @@
+@charset "UTF_8";
+
+
+.foot {
+
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.foot .article {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 40px;
+    background-color: whitesmoke;
+
+}
+
+
+.subscribe .subscribe-sec .subscribe-sec-div > article > h2 {
+    justify-content: center;
+}
+
+.subscribe .subscribe-sec .subscribe-sec-div > article > p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.foot .article .foot-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.foot .article .menu, .contact {
+    display: flex;
+    flex-basis: 25%;
+}
+
+.foot .article .menu {
+    display: flex;
+    flex-basis: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.foot .article .menu ul {
+    display: flex;
+    flex-basis: calc(33.333333% - 60px);
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.foot .article .menu ul li {
+    color: #161616;
+    display: flex;
+    flex-basis: 100%;
+}
+
+.foot .article .menu > ul > li > h2 {
+    padding-bottom: 10px;
+}
+
+.foot .article .menu > ul > li > a {
+    display: flex;
+    flex-basis: 100%;
+    color: #161616;
+    margin: 0 auto;
+    justify-content: flex-start;
+    line-height: 30px;
+    /*border: 1px solid white;*/
+}
+
+.foot .article .menu ul li a:hover {
+    text-decoration: underline #161616;
+    transition-duration: .1s;
+}
+
+.foot .article .contact {
+    display: flex;
+    flex-basis: 20%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    /*background-color: #ff253a;*/
+}
+
+.foot .contact a {
+    display: flex;
+    flex-basis: 33.33333%;
+    align-items: flex-start;
+    line-height: 45px;
+    justify-content: flex-start;
+}
+
+.foot .contact a:hover {
+    transition-duration: .1s;
+    color: white;
+}
+
+.contact a i {
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20pt;
+    justify-content: center;
+    padding: 5px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.75);
+    border-left: 2px solid rgba(0, 0, 0, 0.75);
+    border-right: 1px solid rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    color: #161616;
+    transition: .1s;
+}
+
+/* #98C1D9 */
+
+.fa-facebook:hover {
+    color: #106AFF;
+    translate: -1px -1px;
+    box-shadow: 2px 2px 5px rgba(22, 22, 22, 0.25);
+
+    border-bottom: 5px solid #106AFF;
+    border-left: 2px solid #106AFF;
+    border-right: 1px solid #106AFF;
+}
+
+.fa-instagram:hover {
+    color: #CC3685;
+    translate: -1px -1px;
+    box-shadow: 2px 2px 5px rgba(22, 22, 22, 0.25);
+
+    border-bottom: 5px solid #EF0865;
+    border-left: 2px solid #CD0AAA;
+    border-right: 1px solid #ED6616;
+}
+
+.fa-whatsapp:hover {
+    color: #08D95B;
+    translate: -1px -1px;
+    box-shadow: 2px 2px 5px rgba(22, 22, 22, 0.25);
+
+    border-bottom: 5px solid #08D95B;
+    border-left: 2px solid #08D95B;
+    border-right: 1px solid #08D95B;
+}
+
+.foot .article .guizo {
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+
+.foot .article > p > a {
+    display: flex;
+    flex-basis: 100%;
+    text-align: center;
+    color: #161616;
+    font-weight: lighter;
+    justify-content: center;
+    border-top: .5px solid rgba(22, 22, 22, 0.07);
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    font-size: 11pt;
+
+    &:hover{
+        text-decoration: underline #161616;
+        transition-duration: .1s;
+    }
+}

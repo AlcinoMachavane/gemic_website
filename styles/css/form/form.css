@@ -1,0 +1,198 @@
+@charset "UTF_8";
+
+.mainOfLogin{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContentJustifier{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    align-items: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    min-width: 350px;
+    margin: 20px auto; /* Centraliza a caixa de login */
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.infoTexte{
+    color: gray;
+    text-align: center;
+    font-size: 11pt;
+    line-height: 1.2em;
+}
+
+.helpToLogin > a{
+    color: #106AFF;
+}
+
+.helpToLogin > a:hover{
+    text-decoration: underline;
+}
+
+.otherWays{
+    border-bottom: 1px solid #106AFF;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+input[type="datetime-local"],
+input[type="file"],
+input[type="hidden"],
+input[type="image"],
+input[type="month"],
+input[type="range"],
+input[type="reset"],
+input[type="search"],
+/* input[type="submit"], */
+input[type="time"],
+input[type="url"],
+input[type="week"],
+/* input[type="checkbox"], */
+/* input[type="radio"], */
+textarea,
+select{
+    padding: 10px;
+    border-radius: 5px;
+     border: 1px solid transparent; /* Definir inicialmente uma borda transparente */
+    background: linear-gradient(45deg, #f9f9f9, #f8f8f8);
+    border-color: var(--myLightBlue); /* Alterar a cor da borda ao focar */
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.login-container > form > .btn-default{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+
+.login-container > form > .forLableAndInput{
+display: flex;
+flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 0;
+
+}
+
+.login-container > form > label{
+
+    background-color: rgb(255, 238, 0);
+
+}
+
+.toggle-password {
+    background-color: transparent;
+    cursor: pointer;
+    color: #007bff;
+    padding: 5px;
+    font-size: 12pt;
+}
+
+.toggle-password:hover{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.29);
+    translate: 0 -2px;
+}
+
+
+.login-container > form > .forLableAndInput > label > i {
+    padding: 5px;
+    font-size: 12pt;
+}
+
+
+.login-container .feedback {
+    color: rgb(252, 54, 54);
+    margin-bottom: 5px;
+    font-size: 10pt;
+}
+
+/* /////////////////////// Estilos do footer do login //////////////////// */
+
+.article > p{
+    font-size: 10pt;
+}
+
+.article > p:hover{
+    text-decoration: underline;
+}
+
+
+.otherWayToRecover{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+/* 
+.otherWayToRecover a i {
+    align-items: center;
+    margin: 10px;
+    font-size: 15pt;
+    justify-content: center;
+    padding: 5px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.75);
+    border-left: 2px solid rgba(0, 0, 0, 0.75);
+    border-right: 1px solid rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    color: #161616;
+    transition: .1s;
+}
+
+
+.fa-facebook:hover {
+    color: #106AFF;
+    translate: -1px -1px;
+    box-shadow: 2px 2px 5px rgba(22, 22, 22, 0.25);
+
+    border-bottom: 5px solid #106AFF;
+    border-left: 2px solid #106AFF;
+    border-right: 1px solid #106AFF;
+}
+
+.fa-google:hover {
+    color: red;
+    translate: -1px -1px;
+    box-shadow: 2px 2px 5px rgba(22, 22, 22, 0.25);
+
+    border-bottom: 5px solid green;
+    border-left: 2px solid yellow;
+    border-right: 1px solid blue;
+}
+
+ */
+
+.login-container > form > .forLableAndInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+

@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.firstTopic{
+margin-top: 80px;
+}
+
+.product-section .product-article-txt{
+background-color: white;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.213);
+}
+
+.whatIsGemic > h1{
+margin: 40px;
+font-size: 40pt;
+text-align: center;
+border-top-left-radius: 40px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 40px;
+color: #3361aa;
+border: 1px solid #3361aa;
+box-shadow: 1px 1px 10px  #36a8e193;
+}
+
+.product-section .product-article-txt .topics h2 {
+        font-size: 18pt;
+        color: #233D4D;
+        margin-bottom: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .product-section .product-article-txt .topics i{
+    font-size: 50px;
+    color: #3361aa;
+    margin-bottom: 10px;
+    
+    }
+
+    .topics {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        
+    }
+
+    .topics > i{
+        text-align: center;
+        box-shadow: none!important;
+    }
+
+.product-section .product-article-txt .topics .separater h3 {
+    margin: 30px 0 10px 0;
+    /* background-color: red; */
+} 
+
+
+/*///////////////////////////////////////////  Produtos ///////////////////////////////////////////////////*/
+/*///////////////////////////////////////////  Produtos ///////////////////////////////////////////////////*/
+
+.main-p {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.div-product-gemic {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-article-txt > h1,h2{
+margin-bottom: 10px;
+}
+
+.product-section {
+    display: flex;
+    flex-basis: 100%;
+    margin: 20px 40px;
+    transition: 1s;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.div-product-article-txt{
+/* background-color: red; */
+justify-content: center;
+padding: 10px;
+/* padding: 30px; */
+}
+
+.product-article-txt{
+max-width: 800px;
+text-align: justify;
+margin: 40px auto;
+/* background-color: #233D4D; */
+margin-bottom: 40px;
+}
+
+
+/************** Precos ********/
+
+.prices-div {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), white);
+}
+
+.prices {
+    display: flex;
+    flex-basis: 100%;
+    max-width: 1200px;
+    margin-bottom: 200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.prices .prices-topic {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    font-size: 22pt;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.prices .prices-plan {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(25% - 50px);
+    max-width: 300px;
+    border-radius: 20px;
+    margin: 0 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+.prices #mensal {
+    background-color: rgba(252, 202, 70, 0.5);
+    translate: 0 -20px;
+}
+
+.prices #mensal:hover {
+    translate: 0 -22px;
+}
+
+
+.prices #semi-annual {
+    background-color: rgba(53, 166, 222, 0.5);
+    translate: 0 -20px;
+}
+
+.prices #semi-annual:hover {
+    translate: 0 -22px;
+}
+
+
+.prices .prices-plan:hover {
+    translate: 0 -2px;
+    box-shadow: 5px 5px 15px rgba(252, 202, 70, 0.2);
+}
+
+.prices .gemic-article:hover {
+    box-shadow: 5px 5px 15px rgba(53, 166, 222, 0.4);
+}
+
+.prices .prices-subtopic {
+    display: flex;
+    flex-basis: 100%;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.prices .prices-description {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 0 20px 0;
+    justify-content: center;
+}
+
+.prices .prices-price {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 0 20px 0;
+    justify-content: center;
+}
+
+.prices .prices-benefit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.prices .prices-benefit-topic {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 0 10px 0;
+    justify-content: center;
+}
+
+.prices .prices-benefit ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10%;
+    line-height: 20pt;
+}
+
+.prices .prices-benefit ul li {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    list-style: square !important;
+}
+
+.prices .prices-benefit ul li > a{
+    color: #161616;
+}
+
+.prices .prices-benefit ul li .fa-circle-info {
+    font-size: 8pt;
+    color: rgba(0, 0, 0, 0.49);
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    margin-left: 2px;
+}
+
+.prices .prices-benefit ul li .fa-circle-info:hover {
+    color: #3361aa;
+    font-size: 10pt;
+}
+
+button.btn-vp {
+    margin: 20px auto;
+    transition: .5s;
+    border-radius: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #233D4D, #233D4D, #233D4D, rgba(252, 202, 70, 1));
+    width: 150px;
+    padding: 5px;
+    background-size: 200%;
+    font-size: 12pt;
+    color: rgba(252, 202, 70, 1);
+}
+
+
+.btn-vp:hover {
+    color: white;
+    background-position: right;
+    background-image: linear-gradient(to right, #233D4D, #233D4D, rgba(252, 202, 70, 1), #233D4D, #233D4D);
+}
+
+.btn-gemic {
+    margin: 20px auto;
+    transition: .5s;
+    color: #cfeaff;
+    border-radius: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #3361aa, #3361aa, #3361aa, #36a9e1);
+    width: 150px;
+    padding: 5px;
+    background-size: 200%;
+    font-size: 12pt;
+}
+
+.btn-gemic:hover {
+    color: white;
+    background-position: right;
+    background-image: linear-gradient(to right, #3361aa, #3361aa, #36a9e1, #3361aa);
+}
+
+
+/* _Note about prices */
+
+.note{
+display: flex;
+flex-wrap: wrap;
+border-radius: 10px 10px 100px 100px;
+box-shadow: 2px 2px 15px rgba(53, 166, 222, 0.2);
+flex-basis: 100%;
+justify-content: center;
+margin: 80px 20px 0 20px;
+padding: 20px 10px;
+}
+
+.note > h2{
+    display: flex;
+    flex-basis: 100%;
+    border-bottom: 1px solid #3361aa32;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.note > p{
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+}
