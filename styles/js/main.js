@@ -1,9 +1,21 @@
 $(function () {
-    $('.menu-mobile-limit').on('click', function () {
+    // Alterna o menu ao clicar no menu ou no botão
+    $('.menu-mobile-limit').on('click', function (event) {
+        event.stopPropagation(); // Impede que o clique se propague para o documento
         $('.menu-mobile-list').toggleClass('ds_none');
         $(this).toggleClass('menu-mobile-limit_active');
     });
+
+    // Fecha o menu ao clicar fora dele
+    $(document).on('click', function (event) {
+        if (!$(event.target).closest('.menu-mobile-list, .menu-mobile-limit').length) {
+            // Se o clique não é no menu ou no botão, fecha o menu
+            $('.menu-mobile-list').addClass('ds_none');
+            $('.menu-mobile-limit').removeClass('menu-mobile-limit_active');
+        }
+    });
 });
+
 
 // //////////////////////////////////////////////////////////////////////////
 

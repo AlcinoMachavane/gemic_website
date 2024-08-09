@@ -47,7 +47,6 @@ box-shadow: 1px 1px 10px  #36a8e193;
     .topics {
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
         
     }
 
