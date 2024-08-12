@@ -22,12 +22,10 @@
 
 .login-container {
     background-color: white;
-    padding: 20px;
+    padding: 20px 0;
     border-radius: 8px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    /* max-width: 400px; */
-    min-width: 350px;
-    margin: 20px; /* Centraliza a caixa de login */
+    margin: 10px; /* Centraliza a caixa de login */
 }
 
 .login-container h1 {
@@ -55,6 +53,12 @@
     border-bottom: 1px solid #106AFF;
 }
 
+
+.adjustFeedback{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
 
 
 input[type="text"],
@@ -98,13 +102,26 @@ select{
 
 }
 
-.forLableAndInput{
+.forLableAndInputContainer{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 20px 0;
-    min-width: 300px;
+    justify-content: space-around;
 }
+
+.forLableAndInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+
+/* label{
+
+    background-color: rgb(255, 238, 0);
+
+} */
 
 .toggle-password {
     background-color: transparent;
@@ -186,10 +203,6 @@ select{
 
  */
 
-.forLableAndInput {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 

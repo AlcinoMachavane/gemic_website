@@ -1,0 +1,16 @@
+@charset "UTF_8";
+
+@media (max-width: 750px) {
+
+.login-container{
+    width: 95%;
+}
+
+    .forLableAndInputContainer{
+        flex-direction: column;
+    }
+
+    .adjustFeedback{
+        width: 100%;
+    }
+}

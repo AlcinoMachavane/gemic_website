@@ -28,7 +28,7 @@
     flex-basis: 100%;
     margin: auto;
     justify-content: center;
-    flex-wrap: wrap; background-color: white;
+    background-color: whitesmoke;
 }
 
 .dashboard{height: 800px;}
@@ -73,6 +73,8 @@
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.267);
     position: sticky;
     top: 60px;
+    background-color: white;
+    background-repeat: no-repeat;
 }
 
 

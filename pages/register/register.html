@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../icons/LOGO GEMIC_FAVI.png" type="image/x-icon">
-    <link rel="stylesheet" href="../../styles/css/form/form.css">
-    <link rel="stylesheet" href="../../styles/css/form/formMediaquery.css">
+    <link rel="stylesheet" href="../../styles/css/form/twoSidesForm.css">
+    <link rel="stylesheet" href="../../styles/css/form/twoSidesFormMediaquery.css">
     <link rel="stylesheet" href="../../styles/css/simpleFooter.css">
     <link rel="stylesheet" href="../../styles/css/style.css">
     <link rel="stylesheet" href="../../styles/css/header.css">
@@ -73,64 +73,65 @@
             <h1>Cadastro</h1>
             <form>
 
-                <div id="registretionByInvitationDocumentFeedback" class="feedback"></div>
+                <div class="forLableAndInputContainer">
+                    <div class="adjustFeedback">
+                    <div class="forLableAndInput">
+                        <label for="name"><i class="fa-regular fa-circle-user"></i></label>
+                        <input type="text" id="name" name="name" placeholder="Inserir seu nome completo" autofocus>
+                    </div>
+                    <div id="nomeDocumentFeedback" class="feedback"></div>
+                    </div>
 
-                <div class="forLableAndInput">
-                    <label for="name"><i class="fa-regular fa-circle-user"></i></label>
-                    <input type="text" id="name" name="name" placeholder="Inserir seu nome completo" autofocus>
-                </div>
-                <div id="nomeDocumentFeedback" class="feedback"></div>
-              
-                <div class="forLableAndInput">
-                    <label for="email"><i class="fa-regular fa-envelope"></i></label>
-                    <input type="email" id="email" name="email" placeholder="Inserir seu email">
-                </div>
-                <div id="emailDocumentFeedback" class="feedback"></div>
-
-                <div class="forLableAndInput">
-                    <label for="contact"><i class="fa-solid fa-mobile-screen-button"></i></label>
-                    <input type="tel" id="contact" name="contact" placeholder="Inserir seu contacto">
-                </div>
-                <div id="contactDocumentFeedback" class="feedback"></div>
                 
-                <div class="forLableAndInput">
-                    <label for="senha"><i class="fa-solid fa-key"></i></label>
-                    <input type="password" id="senha" name="senha" placeholder="Inserir sua senha">
-                        <button type="button" class="toggle-password">
-            <i class="fa-solid fa-eye-slash"></i>
-        </button>
+                    <div class="adjustFeedback">
+                    <div class="forLableAndInput">
+                        <label for="email"><i class="fa-regular fa-envelope"></i></label>
+                        <input type="email" id="email" name="email" placeholder="Inserir seu email">
+                    </div>
+                    <div id="emailDocumentFeedback" class="feedback"></div>
+                    </div>
                 </div>
-                <div id="senhaDocumentFeedback" class="feedback"></div>
 
-                <div class="forLableAndInput">
-                    <label for="confirmPassword"><i class="fa-solid fa-key"></i></label>
-                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirmar a senha">
-                        <button type="button" class="toggle-password">
-            <i class="fa-solid fa-eye-slash"></i>
-        </button>
+                <div class="forLableAndInputContainer">
+                    
+                    <div class="adjustFeedback">
+                    <div class="forLableAndInput">
+                        <label for="senha"><i class="fa-solid fa-key"></i></label>
+                        <input type="password" id="senha" name="senha" placeholder="Inserir sua senha">
+                        <button type="button" class="toggle-password"><i class="fa-solid fa-eye-slash"></i></button>
+                    </div>
+                    <div id="senhaDocumentFeedback" class="feedback"></div>
+                    </div>
+                    
+                    <div class="adjustFeedback">
+                        <div class="forLableAndInput">
+                            <label for="confirmPassword"><i class="fa-solid fa-key"></i></label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirmar a senha">
+                                <button type="button" class="toggle-password"><i class="fa-solid fa-eye-slash"></i></button>
+                        </div>
+                        <div id="confirmPasswordDocumentFeedback" class="feedback"></div>
+                        </div>
                 </div>
-                <div id="confirmPasswordDocumentFeedback" class="feedback"></div>
 
-                <div class="forLableAndInput">
-                    <label for="companyName"><i class="fa-regular fa-building"></i></label>
-                    <input type="password" id="companyName" name="companyName" placeholder="Inserir o nome da empresa">
+                <div class="forLableAndInputContainer">
+                    <div class="adjustFeedback">
+                    <div class="forLableAndInput">
+                        <label for="contact"><i class="fa-solid fa-mobile-screen-button"></i></label>
+                        <input type="tel" id="contact" name="contact" placeholder="Inserir seu contacto">
+                    </div>
+                    <div id="contactDocumentFeedback" class="feedback"></div>
+                    </div>
+
+                    <div class="adjustFeedback">
+                    <div class="forLableAndInput">
+                        <label for="companyName"><i class="fa-regular fa-building"></i></label>
+                        <input type="text" id="companyName" name="companyName" placeholder="Inserir o nome da empresa">
+                    </div>
+                    <div id="companyNameDocumentFeedback" class="feedback"></div>
+                    </div>
                 </div>
-                <div id="companyNameDocumentFeedback" class="feedback"></div>
 
-                <!-- <p class="infoTexte otherWays">Ou use outras formas:</p>   -->
-                <!-- <div class="otherWayToRecover">
-                  
-                  <a
-                    href="https://www.facebook.com/softwareGestaoDeMicrocreditoGemic"
-                    target="_blank"
-                    ><i class="fa-brands fa-facebook"></i
-                  ></a>
-                  <a
-                    href="https://www.instagram.com/softwaredemicrocreditogemic/"
-                    target="_blank"
-                    ><i class="fa-brands fa-google"></i></a>
                 
-                </div> -->
                 <p class="infoTexte helpToLogin"><a href="../login/login.html">Voltar ao login</a></p>
                 <input type="submit" value="Submeter" class="btn btn-default">
             </form>
