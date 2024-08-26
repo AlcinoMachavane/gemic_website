@@ -107,6 +107,7 @@ body::-webkit-scrollbar {
     transition: 1s;
     background-size: 200%;
     font-size: 11pt;
+    text-decoration: none;
 }
 
 .btn:hover {
