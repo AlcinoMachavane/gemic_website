@@ -1,4 +1,8 @@
-@charset "UTF_8";
+@charset "UTF-8";
+
+.form{
+    margin: 10px;
+}
 
 .mainOfLogin{
     display: flex;
@@ -103,7 +107,6 @@ select{
     flex-direction: row;
     align-items: flex-start;
     padding: 20px 0;
-    min-width: 300px;
 }
 
 .toggle-password {

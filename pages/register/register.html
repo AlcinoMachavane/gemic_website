@@ -71,7 +71,7 @@
 
         <div class="login-container">
             <h1>Cadastro</h1>
-            <form>
+            <form class="form">
 
                 <div class="forLableAndInputContainer">
                     <div class="adjustFeedback">
@@ -82,7 +82,6 @@
                     <div id="nomeDocumentFeedback" class="feedback"></div>
                     </div>
 
-                
                     <div class="adjustFeedback">
                     <div class="forLableAndInput">
                         <label for="email"><i class="fa-regular fa-envelope"></i></label>
@@ -90,6 +89,22 @@
                     </div>
                     <div id="emailDocumentFeedback" class="feedback"></div>
                     </div>
+                </div>
+
+                <div class="forLableAndInputContainer">
+                        <h2 class="standardFormSubtitle">Género *</h2>
+                </div>
+
+                <div class="forLableAndInputContainer">
+                        <div class="adjustFeedback">
+                            <div class="radioContainer">
+                            <input class="standardFormInput" type="radio" id="male" value="Masculino" name="personalData.gender">
+                            <label class="standardFormLabel" for="male">Masculino</label>
+
+                            <input class="standardFormInput" type="radio" id="female" value="Femenino" name="personalData.gender">
+                            <label class="standardFormLabel" for="female">Femenino</label>
+                            </div>
+                        </div>
                 </div>
 
                 <div class="forLableAndInputContainer">

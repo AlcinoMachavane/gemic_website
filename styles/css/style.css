@@ -1,4 +1,4 @@
-@charset "UTF_8";
+@charset "UTF-8";
 
 * {
     padding: 0;
@@ -39,7 +39,6 @@ h2{
     src: url('../../fonts/Quattrocento_Sans0/QuattrocentoSans-Regular.ttf') format('woff');
 
 }
-
 
 /* MENU LIST */
 .ds_none {
@@ -100,7 +99,7 @@ body::-webkit-scrollbar {
     color: #fff;
     font-weight: bold;
     background-image: linear-gradient(to right, #253889, #3361aa, #36a9e1, #253889);
-    width: 200px;
+    width: 80%;
     padding: 10px 20px;
     margin: 0 auto;
     border-radius: 25px;
